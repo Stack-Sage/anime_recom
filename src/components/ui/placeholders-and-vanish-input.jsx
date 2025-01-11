@@ -2,7 +2,7 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { cn } from "../../../util/cn";
+import { cn } from "../../util/cn";
 
 export function PlaceholdersAndVanishInput({
   placeholders,
