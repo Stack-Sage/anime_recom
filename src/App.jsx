@@ -1,9 +1,10 @@
 import react from 'react'
-import Navbar from './components/navbar'
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
 import Contact from './components/Contact'
 import About from './components/About'
 import Home from './components/Home'
-import Footer from './components/footer'
+
 import { Route,Routes } from 'react-router-dom'
 
 const App = ()=>{
