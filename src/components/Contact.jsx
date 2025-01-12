@@ -43,7 +43,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-gradient-to-tr from-teal-950 via-black to-teal-950 min-h-screen flex pt-20  justify-center text-gray-200">
+    <div className="bg-gradient-to-br from-teal-950 via-black to-cyan-950 min-h-screen flex pt-20  justify-center text-gray-200">
       <div className="lg:w-1/3 w-3/5 h-1/3 bg-gradient-to-br from-black via-teal-900 shadow-lg shadow-teal-800  to-slate-900 p-8 rounded-lg hover:shadow-xl hover:shadow-teal-400 hover:scale-105 trasistion duration-300 ease-linear">
         <h1 className="text-xl lg:text-4xl md:text-2xl font-bold text-teal-300 mb-6 text-center">
           Contact Me

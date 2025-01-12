@@ -170,8 +170,8 @@ export function PlaceholdersAndVanishInput({
   return (
     (<form
       className={cn(
-        "w-full relative max-w-xl mx-auto bg-black shadow-md shadow-teal-800 hover:shadow-lg hover:shadow-teal-500 bg-gradient-to-br  h-12 rounded-full overflow-hidden transition duration-200",
-        value && "bg-gray-50"
+        "w-full relative max-w-xl mx-auto shadow-lg bg-blackshadow-md shadow-teal-950 hover:shadow-xl hover:shadow-cyan-950 bg-gradient-to-br  h-12 rounded-full overflow-hidden transition duration-200",
+        value && "bg-black"
       )}
       onSubmit={handleSubmit}>
       <canvas

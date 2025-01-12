@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
 
-<div className='fixed flex items-center justify-center bottom-0 p-2  shadow-inner shadow-teal-800 rounded-lg hover:shadow-teal-400 w-full bg-gradient-to-r  from-teal-950 via-black to-teal-950  text-teal-600 hover:text-teal-400 text-center  transistion duration-300 ease-in-out'>
+<div className='fixed flex items-center justify-center bottom-0 p-2  shadow-inner shadow-teal-800 rounded-md hover:shadow-teal-400 w-full bg-gradient-to-tr  from-cyn-950 via-cyan-950 to-black  text-cyan-500 hover:text-cyan-400 text-center  transistion duration-300 ease-in-out'>
         <a className='hover:text-teal-200 ' href="/about" target='_blank'>Developer </a> -
         <a className='hover:text-teal-200 ' href="https://github.com/Stack-Sage/anime_recom" target=' _blank'> Source Code</a>
 
