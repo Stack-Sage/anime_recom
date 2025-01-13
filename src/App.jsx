@@ -11,7 +11,6 @@ import { Route, Routes, useLocation } from "react-router-dom";
 const App = () => {
   const location = useLocation();
 
-
   const showLampContainer = ["/", "/movies"].includes(location.pathname);
 
   return (
@@ -23,10 +22,25 @@ const App = () => {
         </div>
       )}
 
+      
+
       <div className="flex  top-0 flex-col text-gray-200 bg-gradient-to-br from-slate-950 via-black to-cyan-950 w-screen text-center min-h-screen h-screen">
         <div className="fixed">
           <Navbar />
         </div>
+
+     { showLampContainer&&(  <div className=" mt-64 absolute w-full mx-auto items-center flex -hue-rotate-180   justify-center   ">
+          
+        <img
+        className=" hover:shadow-lg opacity-25 hover:opacity-50 hover: hover:shadow-black rounded-full hover:scale-110 transistion duration-500 ease-in-out  shadow-none  "
+          src="src\assets\anihive.png "
+          alt="image"
+          width="200px"
+          height="200px"
+        />
+      
+      </div>
+      )}
 
         <div className="pt-[100px] min-h-screen  overflow-hidden ">
           <Routes>
