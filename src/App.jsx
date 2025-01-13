@@ -29,13 +29,13 @@ const App = () => {
           <Navbar />
         </div>
 
-     { showLampContainer&&(  <div className=" mt-64 absolute w-full mx-auto items-center flex -hue-rotate-180   justify-center   ">
+     { showLampContainer&&(  <div className=" mt-64 absolute w-full mx-auto items-center flex    justify-center hue-rotate-180    ">
           
         <img
-        className=" hover:shadow-lg opacity-25 hover:opacity-50 hover: hover:shadow-black rounded-full hover:scale-110 transistion duration-500 ease-in-out  shadow-none  "
-          src="src\assets\anihive.png "
+        className=" hover:shadow-xl opacity-25 hover:opacity-50 hover: hover:shadow-black  rounded-full hover:scale-125 transistion duration-500 ease-in-out   shadow-none bg-transparent animate-pulse  contrast-150 hover:-rotate-180   rotate-180 hover:hue-rotate-60  "
+          src="https://png.pngtree.com/png-vector/20220117/ourmid/pngtree-itachi-mangekyou-sharingan-png-image_4324649.png"
           alt="image"
-          width="200px"
+          width="180px"
           height="200px"
         />
       
